@@ -1,0 +1,303 @@
+.wallet,
+.wallet * {
+  box-sizing: border-box;
+}
+.wallet {
+  background: var(
+    --fff,
+    radial-gradient(closest-side, rgba(23, 23, 23, 1) 0%, rgba(0, 0, 0, 1) 100%)
+  );
+  height: 844px;
+  position: relative;
+  overflow: hidden;
+}
+.wallet__ellipse-2 {
+  background: #f3a10d;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 18px;
+  top: 111px;
+}
+.wallet__vector {
+  width: 4.36%;
+  height: 0.36%;
+  position: absolute;
+  right: 88.72%;
+  left: 6.92%;
+  bottom: 85.43%;
+  top: 14.22%;
+  overflow: visible;
+}
+.wallet__vector2 {
+  width: 4.87%;
+  height: 1.54%;
+  position: absolute;
+  right: 88.46%;
+  left: 6.67%;
+  bottom: 83.77%;
+  top: 14.69%;
+  overflow: visible;
+}
+.wallet__vector3 {
+  width: 1.54%;
+  height: 0.83%;
+  position: absolute;
+  right: 91.79%;
+  left: 6.67%;
+  bottom: 84.72%;
+  top: 14.45%;
+  overflow: visible;
+}
+.wallet__bmem {
+  color: #adacb2;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 62px;
+  top: 111px;
+  width: 98px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet___999-999 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 54px;
+  top: 132px;
+  width: 80px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet___36554-bmeb {
+  color: #adacb2;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 373px;
+  top: 494px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet__rectangle-18 {
+  background: #28282a;
+  border-radius: 50px;
+  width: 100px;
+  height: 33px;
+  position: absolute;
+  left: 275px;
+  top: 111px;
+}
+.wallet__div {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 285px;
+  top: 118px;
+  width: 80px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet__rectangle-29 {
+  background: #131315;
+  border-radius: 15px;
+  width: 357px;
+  height: 50px;
+  position: absolute;
+  left: 18px;
+  top: 199px;
+}
+.wallet__rectangle-31 {
+  background: linear-gradient(
+    -85.11deg,
+    rgba(255, 26, 91, 1) 0%,
+    rgba(255, 102, 145, 1) 100%
+  );
+  border-radius: 15px;
+  width: 171px;
+  height: 50px;
+  position: absolute;
+  left: 204px;
+  top: 354px;
+  box-shadow: 0px 0px 30.6px 0px rgba(255, 61, 116, 0.2);
+}
+.wallet__rectangle-32 {
+  background: linear-gradient(
+    -85.11deg,
+    rgba(99, 216, 116, 1) 0%,
+    rgba(197, 255, 206, 1) 100%
+  );
+  border-radius: 15px;
+  width: 171px;
+  height: 50px;
+  position: absolute;
+  left: 18px;
+  top: 354px;
+  box-shadow: 0px 0px 30px 0px rgba(147, 235, 160, 0.2);
+}
+.wallet__div2 {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 70px;
+  top: 372px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet__div3 {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 264px;
+  top: 372px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet___0-bmeb {
+  background: linear-gradient(
+    -85.85deg,
+    rgba(168, 211, 72, 1) 0%,
+    rgba(227, 255, 164, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 324px;
+  top: 264px;
+  width: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet___1-3876 {
+  background: linear-gradient(
+    -86.5deg,
+    rgba(168, 211, 72, 1) 0%,
+    rgba(227, 255, 164, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 321px;
+  top: 284px;
+  width: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet__div4 {
+  color: #adacb2;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 32px;
+  top: 261px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet__div5 {
+  color: #adacb2;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 32px;
+  top: 281px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet__bmem2 {
+  background: linear-gradient(
+    -86.55deg,
+    rgba(168, 211, 72, 1) 0%,
+    rgba(227, 255, 164, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 28px;
+  top: 177px;
+  width: 56px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet__div6 {
+  color: #28282a;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 25px;
+  top: 216px;
+  width: 116px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wallet__bitcoin-mem {
+  color: #575758;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 20px;
+  top: 395px;
+  width: 350px;
+  height: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

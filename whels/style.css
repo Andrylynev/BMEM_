@@ -1,0 +1,701 @@
+.div,
+.div * {
+  box-sizing: border-box;
+}
+.div {
+  background: var(
+    --fff,
+    radial-gradient(closest-side, rgba(23, 23, 23, 1) 0%, rgba(0, 0, 0, 1) 100%)
+  );
+  height: 844px;
+  position: relative;
+  overflow: hidden;
+}
+.div__star-2 {
+  width: 94.62%;
+  height: 40.88%;
+  position: absolute;
+  right: 2.82%;
+  left: 2.56%;
+  bottom: 37.91%;
+  top: 21.21%;
+  overflow: visible;
+  mix-blend-mode: plus-lighter;
+}
+.div__ellipse-2 {
+  background: #f3a10d;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 18px;
+  top: 111px;
+}
+.div__vector {
+  width: 4.36%;
+  height: 0.36%;
+  position: absolute;
+  right: 88.72%;
+  left: 6.92%;
+  bottom: 85.43%;
+  top: 14.22%;
+  overflow: visible;
+}
+.div__vector2 {
+  width: 4.87%;
+  height: 1.54%;
+  position: absolute;
+  right: 88.46%;
+  left: 6.67%;
+  bottom: 83.77%;
+  top: 14.69%;
+  overflow: visible;
+}
+.div__vector3 {
+  width: 1.54%;
+  height: 0.83%;
+  position: absolute;
+  right: 91.79%;
+  left: 6.67%;
+  bottom: 84.72%;
+  top: 14.45%;
+  overflow: visible;
+}
+.div__bmem {
+  color: #adacb2;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 62px;
+  top: 111px;
+  width: 98px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___999-999 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 54px;
+  top: 132px;
+  width: 80px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___36554-bmeb {
+  color: #adacb2;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 373px;
+  top: 494px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__rectangle-18 {
+  background: #28282a;
+  border-radius: 50px;
+  width: 100px;
+  height: 33px;
+  position: absolute;
+  left: 275px;
+  top: 111px;
+}
+.div__div2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 285px;
+  top: 118px;
+  width: 80px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__div3 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 71px;
+  top: 175px;
+  width: 247px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__group {
+  height: auto;
+  position: absolute;
+  left: 34px;
+  top: 191px;
+  overflow: visible;
+}
+.div__group-2 {
+  position: absolute;
+  inset: 0;
+}
+.div__rectangle-14 {
+  background: #131315;
+  border-radius: 60px;
+  width: 27.18%;
+  height: 2.96%;
+  position: absolute;
+  right: 68.21%;
+  left: 4.62%;
+  bottom: 36.85%;
+  top: 60.19%;
+}
+.div__div4 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  right: 59.74%;
+  left: 5.9%;
+  width: 34.36%;
+  bottom: 40.52%;
+  top: 57.11%;
+  height: 2.37%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___36554-bmeb2 {
+  color: #adacb2;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 15px;
+  top: 514px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__group-3 {
+  position: absolute;
+  inset: 0;
+}
+.div__rectangle-142 {
+  background: #131315;
+  border-radius: 60px;
+  width: 27.18%;
+  height: 2.96%;
+  position: absolute;
+  right: 38.72%;
+  left: 34.1%;
+  bottom: 36.85%;
+  top: 60.19%;
+}
+.div___36554-bmeb3 {
+  color: #adacb2;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 130px;
+  top: 514px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__group-4 {
+  position: absolute;
+  inset: 0;
+}
+.div__rectangle-143 {
+  background: #131315;
+  border-radius: 60px;
+  width: 27.18%;
+  height: 2.96%;
+  position: absolute;
+  right: 8.46%;
+  left: 64.36%;
+  bottom: 36.85%;
+  top: 60.19%;
+}
+.div___36554-bmeb4 {
+  color: #adacb2;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 248px;
+  top: 514px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__rectangle-35 {
+  background: linear-gradient(
+    -84.8deg,
+    rgba(0, 141, 208, 1) 0%,
+    rgba(164, 226, 255, 1) 100%
+  );
+  border-radius: 15px;
+  width: 112px;
+  height: 35px;
+  position: absolute;
+  left: 18px;
+  top: 577px;
+}
+.div__rectangle-38 {
+  background: linear-gradient(
+    -84.8deg,
+    rgba(232, 58, 85, 1) 0%,
+    rgba(255, 143, 161, 1) 100%
+  );
+  border-radius: 15px;
+  width: 112px;
+  height: 35px;
+  position: absolute;
+  left: 18px;
+  top: 654px;
+}
+.div__rectangle-36 {
+  background: linear-gradient(
+    -84.8deg,
+    rgba(0, 141, 208, 1) 0%,
+    rgba(164, 226, 255, 1) 100%
+  );
+  border-radius: 15px;
+  width: 112px;
+  height: 35px;
+  position: absolute;
+  left: 261px;
+  top: 577px;
+}
+.div__rectangle-40 {
+  background: linear-gradient(
+    -84.8deg,
+    rgba(232, 58, 85, 1) 0%,
+    rgba(255, 143, 161, 1) 100%
+  );
+  border-radius: 15px;
+  width: 112px;
+  height: 35px;
+  position: absolute;
+  left: 261px;
+  top: 654px;
+}
+.div__rectangle-37 {
+  background: linear-gradient(
+    -84.8deg,
+    rgba(0, 141, 208, 1) 0%,
+    rgba(164, 226, 255, 1) 100%
+  );
+  border-radius: 15px;
+  width: 112px;
+  height: 35px;
+  position: absolute;
+  left: 139px;
+  top: 577px;
+}
+.div__rectangle-39 {
+  background: linear-gradient(
+    -84.8deg,
+    rgba(232, 58, 85, 1) 0%,
+    rgba(255, 143, 161, 1) 100%
+  );
+  border-radius: 15px;
+  width: 112px;
+  height: 35px;
+  position: absolute;
+  left: 139px;
+  top: 654px;
+}
+.div__rectangle-34 {
+  background: linear-gradient(
+    -88.38deg,
+    rgba(157, 198, 67, 1) 0%,
+    rgba(227, 255, 164, 1) 100%
+  );
+  border-radius: 15px;
+  width: 357px;
+  height: 60px;
+  position: absolute;
+  left: 18px;
+  top: 728px;
+}
+.div__div5 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 107px;
+  top: 628px;
+  width: 176px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___10-000-bmem {
+  color: #adacb2;
+  text-align: left;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 31px;
+  top: 708px;
+  width: 350px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.div__div6 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 107px;
+  top: 548px;
+  width: 176px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__div7 {
+  color: #28282a;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 130px;
+  top: 749px;
+  width: 129px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___1-ton {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 161px;
+  top: 444.52px;
+  transform-origin: 0 0;
+  transform: rotate(-73.93deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__x-2 {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 126px;
+  top: 408.25px;
+  transform-origin: 0 0;
+  transform: rotate(-46.085deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__x-22 {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 263px;
+  top: 328.25px;
+  transform-origin: 0 0;
+  transform: rotate(-14.492deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___3-ton {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 102px;
+  top: 372.59px;
+  transform-origin: 0 0;
+  transform: rotate(-21.962deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___3-ton2 {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 254.53px;
+  top: 358px;
+  transform-origin: 0 0;
+  transform: rotate(21.618deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__x-20 {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 110.83px;
+  top: 321.39px;
+  transform-origin: 0 0;
+  transform: rotate(11.417deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__x-202 {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 247.03px;
+  top: 392px;
+  transform-origin: 0 0;
+  transform: rotate(47.329deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__x-0-5 {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 179.23px;
+  top: 259px;
+  transform-origin: 0 0;
+  transform: rotate(71.536deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___10-000 {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 131.43px;
+  top: 276px;
+  transform-origin: 0 0;
+  transform: rotate(44.045deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___10-0002 {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 216.56px;
+  top: 400px;
+  transform-origin: 0 0;
+  transform: rotate(76.073deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___1-000 {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 231.57px;
+  top: 307.24px;
+  transform-origin: 0 0;
+  transform: rotate(-49.017deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___0-5-ton {
+  color: #000000;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 200px;
+  top: 301.45px;
+  transform-origin: 0 0;
+  transform: rotate(-68.716deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__x-10 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 52px;
+  top: 585px;
+  width: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___1-0002 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 49px;
+  top: 662px;
+  width: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___5-000 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 171px;
+  top: 662px;
+  width: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div___10-0003 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 287px;
+  top: 662px;
+  width: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__x-100 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 170px;
+  top: 585px;
+  width: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__x-1000 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  left: 291px;
+  top: 585px;
+  width: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div__group-5 {
+  position: absolute;
+  inset: 0;
+}
+.div__rectangle-144 {
+  background: #131315;
+  border-radius: 60px;
+  width: 27.18%;
+  height: 2.96%;
+  position: absolute;
+  right: -21.79%;
+  left: 94.62%;
+  bottom: 36.85%;
+  top: 60.19%;
+}
+.div___36554-bmeb5 {
+  color: #adacb2;
+  text-align: center;
+  font-family: "AaStetica-Bold", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  position: absolute;
+  left: 366px;
+  top: 514px;
+  width: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

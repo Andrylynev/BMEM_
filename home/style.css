@@ -85,6 +85,7 @@
   position: absolute;
   left: 18px;
   top: 111px;
+  z-index: 100;
 }
 .home__vector {
   width: 4.36%;
@@ -221,6 +222,7 @@
   position: absolute;
   left: 275px;
   top: 111px;
+  z-index: 100;
 }
 .home__div2 {
   color: #ffffff;
@@ -236,6 +238,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 101;
 }
 .home__rectangle-24 {
   background: #131315;
@@ -245,6 +248,7 @@
   position: absolute;
   left: 18px;
   top: 538px;
+  z-index: 100;
 }
 .home__rectangle-25 {
   background: #131315;
@@ -254,6 +258,7 @@
   position: absolute;
   left: 18px;
   top: 632px;
+  z-index: 100;
 }
 .home__rectangle-26 {
   background: #131315;
@@ -263,6 +268,7 @@
   position: absolute;
   left: 19px;
   top: 726px;
+  z-index: 100;
 }
 .home__rectangle-27 {
   background: #131315;
@@ -272,6 +278,7 @@
   position: absolute;
   left: 200px;
   top: 726px;
+  z-index: 100;
 }
 .home__mask-group {
   height: auto;
@@ -279,6 +286,7 @@
   left: 18px;
   top: 538px;
   overflow: visible;
+  z-index: 99;
 }
 .home__mask-group2 {
   height: auto;
@@ -286,6 +294,7 @@
   left: 20px;
   top: 726px;
   overflow: visible;
+  z-index: 99;
 }
 .home__mask-group3 {
   height: auto;
@@ -293,6 +302,7 @@
   left: 201px;
   top: 726px;
   overflow: visible;
+  z-index: 99;
 }
 .home__mask-group4 {
   height: auto;
@@ -300,6 +310,7 @@
   left: 17px;
   top: 632px;
   overflow: visible;
+  z-index: 99;
 }
 .home__frame-1 {
   display: flex;
@@ -310,6 +321,7 @@
   position: absolute;
   left: 216px;
   top: 741px;
+  z-index: 99;
 }
 .home__div3 {
   color: #ffffff;
@@ -332,6 +344,7 @@
   position: absolute;
   left: 216px;
   top: 765px;
+  z-index: 99;
 }
 .home__bmem2 {
   color: #adacb2;
@@ -353,6 +366,7 @@
   position: absolute;
   left: 31px;
   top: 764px;
+  z-index: 99;
 }
 .home__div4 {
   color: #adacb2;
@@ -375,6 +389,7 @@
   position: absolute;
   left: 31px;
   top: 741px;
+  z-index: 99;
 }
 .home__frame-4 {
   display: flex;
@@ -385,6 +400,7 @@
   position: absolute;
   left: 31px;
   top: 674px;
+  z-index: 99;
 }
 .home__div5 {
   color: #adacb2;
@@ -406,6 +422,7 @@
   position: absolute;
   left: 30px;
   top: 649px;
+  z-index: 99;
 }
 .home__div6 {
   color: #ffffff;
@@ -427,6 +444,7 @@
   position: absolute;
   left: 32px;
   top: 582px;
+  z-index: 99;
 }
 .home__bmem3 {
   color: #adacb2;
@@ -448,6 +466,7 @@
   position: absolute;
   left: 31px;
   top: 557px;
+  z-index: 99;
 }
 .home___1 {
   width: 326px;
@@ -2018,7 +2037,7 @@
   left: 318.4px;
   top: 787.4px;
   transform-origin: 0 0;
-  transform: rotate(-30.672deg) scale(1, 1);
+  transform: rotate(- 30.672deg) scale(1, 1);
 }
 .home__rectangle-63 {
   background: #5a9929;

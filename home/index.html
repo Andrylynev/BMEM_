@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=390, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="./vars.css">
   <link rel="stylesheet" href="./style.css">
   
-  
   <style>
+   body {
+       margin: 0;
+       padding: 0;
+       overflow-x: hidden;
+       width: 390px;
+       height: 844px;
+   }
+   
    a,
    button,
    input,
@@ -34,8 +41,53 @@
        margin: 0;
        padding: 0;
    }
+
+   .clickable {
+       cursor: pointer;
+       transition: opacity 0.2s;
+   }
+
+   .clickable:hover {
+       opacity: 0.8;
+   }
+
+   .clickable:active {
+       opacity: 0.6;
+   }
+
+   .notification {
+       position: fixed;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       background: rgba(40, 40, 42, 0.95);
+       color: #ffffff;
+       padding: 20px 40px;
+       border-radius: 15px;
+       font-family: "AaStetica-Bold", sans-serif;
+       font-size: 16px;
+       z-index: 9999;
+       display: none;
+       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+   }
+
+   .notification.show {
+       display: block;
+       animation: fadeIn 0.3s;
+   }
+
+   @keyframes fadeIn {
+       from {
+           opacity: 0;
+           transform: translate(-50%, -60%);
+       }
+       to {
+           opacity: 1;
+           transform: translate(-50%, -50%);
+       }
+   }
    </style>
-  <title>Document</title>
+  <title>BMEM - Главная</title>
 </head>
 <body>
   <div class="home">
@@ -44,23 +96,23 @@
     <div class="home__div">История побед</div>
     <div class="home__rectangle-15"></div>
     <div class="home__rectangle-16"></div>
-    <div class="home__ellipse-2"></div>
+    <div class="home__ellipse-2 clickable" onclick="navigateTo('/wallet')"></div>
     <img class="home__vector" src="vector0.svg" />
     <img class="home__vector2" src="vector1.svg" />
     <img class="home__vector3" src="vector2.svg" />
     <div class="home__bmem">Баланс BMEM</div>
     <div class="home___999-999">999.999</div>
     <div class="home__rectangle-17"></div>
-    <div class="home___999999-bmeb">999999 BMEB</div>
-    <div class="home___3333-bmeb">3333 BMEB</div>
-    <div class="home___36554-bmeb">36554 BMEB</div>
-    <div class="home___36554-bmeb2">36554 BMEB</div>
-    <div class="home__rectangle-18"></div>
+    <div class="home___999999-bmeb" id="history-1">999999 BMEB</div>
+    <div class="home___3333-bmeb" id="history-2">3333 BMEB</div>
+    <div class="home___36554-bmeb" id="history-3">36554 BMEB</div>
+    <div class="home___36554-bmeb2" id="history-4">36554 BMEB</div>
+    <div class="home__rectangle-18 clickable" onclick="navigateTo('/wallet')"></div>
     <div class="home__div2">Кошелек</div>
-    <div class="home__rectangle-24"></div>
-    <div class="home__rectangle-25"></div>
-    <div class="home__rectangle-26"></div>
-    <div class="home__rectangle-27"></div>
+    <div class="home__rectangle-24 clickable" onclick="navigateTo('/whels')"></div>
+    <div class="home__rectangle-25 clickable" onclick="navigateTo('/paper-rock')"></div>
+    <div class="home__rectangle-26 clickable" onclick="showNotification('В разработке')"></div>
+    <div class="home__rectangle-27 clickable" onclick="showNotification('В разработке')"></div>
     <img class="home__mask-group" src="mask-group0.svg" />
     <img class="home__mask-group2" src="mask-group1.svg" />
     <img class="home__mask-group3" src="mask-group2.svg" />
@@ -345,6 +397,67 @@
       <div class="home__rectangle-119"></div>
     </div>
   </div>
-  
+
+  <!-- Уведомление -->
+  <div id="notification" class="notification"></div>
+
+  <script>
+    // Навигация
+    function navigateTo(path) {
+      // В production это будет переход на другую страницу
+      // window.location.href = path;
+      
+      // Для разработки показываем уведомление
+      console.log('Navigating to:', path);
+      if (path === '/wallet') {
+        window.location.href = '../wallet/index.html';
+      } else if (path === '/whels') {
+        window.location.href = '../whels/index.html';
+      } else if (path === '/paper-rock') {
+        window.location.href = '../paper rock/index.html';
+      }
+    }
+
+    // Показ уведомления
+    function showNotification(message) {
+      const notification = document.getElementById('notification');
+      notification.textContent = message;
+      notification.classList.add('show');
+      
+      setTimeout(() => {
+        notification.classList.remove('show');
+      }, 2000);
+    }
+
+    // Загрузка истории побед с API
+    async function loadHistory() {
+      try {
+        // В production раскомментировать:
+        // const response = await fetch('/api/history');
+        // const data = await response.json();
+        
+        // Для разработки используем тестовые данные
+        const data = [
+          { id: 1, amount: '999999 BMEB' },
+          { id: 2, amount: '3333 BMEB' },
+          { id: 3, amount: '36554 BMEB' },
+          { id: 4, amount: '36554 BMEB' }
+        ];
+
+        // Обновляем значения на странице
+        data.forEach((item, index) => {
+          const element = document.getElementById(`history-${index + 1}`);
+          if (element && item.amount) {
+            element.textContent = item.amount;
+          }
+        });
+      } catch (error) {
+        console.error('Ошибка загрузки истории:', error);
+      }
+    }
+
+    // Загружаем историю при загрузке страницы
+    document.addEventListener('DOMContentLoaded', loadHistory);
+  </script>
 </body>
 </html>
